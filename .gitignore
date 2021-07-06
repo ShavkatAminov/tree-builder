@@ -1,4 +1,7 @@
 .idea
+package-lock.json
+/docker/database/data
+/docker/logs/nginx
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
