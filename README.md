@@ -6,7 +6,7 @@
  ```shell
  docker-compose up --build
  ```
- - After success open [http://localhost:8080](http://localhost:8080)
+ - After success open [http://localhost:8000](http://localhost:8000)
 
 ### Pre-requisites
 - `PHP >=7.0`
