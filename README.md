@@ -2,6 +2,12 @@
 
 ## Installation
 
+### Build with docker compose
+ ```shell
+ docker-compose up --build
+ ```
+ - After success open [http://localhost:8080](http://localhost:8080)
+
 ### Pre-requisites
 - `PHP >=7.0`
 - `Composer`
