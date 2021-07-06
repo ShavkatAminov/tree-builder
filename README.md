@@ -8,7 +8,18 @@
 - `npm`
 - `MySQL`
 
-### Step 1: Setup MySQL configuration
+### Step 1: Install packages and build
+- Install `composer` and `node` packages
+    ```shell
+    composer install
+    npm install
+    ```
+- Build `Vue` application
+    ```shell
+    npm run build
+    ```
+
+### Step 2: Setup MySQL configuration
 
 - Copy `.env.example` file to `.env`
     ```shell
@@ -16,7 +27,7 @@
     ```
 - Change `db_user`, `db_password` and `db_name` in `.env` file
 
-### Step 2: Execute database migrations
+### Step 3: Execute database migrations
 
 - Create database
     ```shell
@@ -27,16 +38,6 @@
     php bin/console doctrine:migrations:migrate
     ```
 
-### Step 3: Install packages and build
-- Install `composer` and `node` packages
-    ```shell
-    composer install
-    npm install
-    ```
-- Build `Vue` application
-    ```shell
-    npm run build
-    ```
 ### Step 4: Run application
 
 - Run following command and open [http://localhost:8000](http://localhost:8000)
